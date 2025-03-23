@@ -1,8 +1,8 @@
 // Pinos dos segmentos para cada display (unidades, dezenas, centenas)
 const int segmentPins[3][7] = {
-  {22, 23, 24, 25, 26, 27, 28}, // Unidades
-  {29, 30, 31, 32, 33, 34, 35}, // Dezenas
-  {36, 37, 38, 39, 40, 41, 42}  // Centenas
+  {3, 4, 5, 6, 7, 8, 9}, // Unidades
+  {10, 11, 12, 13, 14, 15, 16}, // Dezenas
+  {17, 18, 19, 20, 21, 22, 23}  // Centenas
 };
 
 int counter = 0;
